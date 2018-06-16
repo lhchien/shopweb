@@ -1,0 +1,612 @@
+.center{
+	width: 75%;
+    margin: 0 auto;
+}
+
+body {
+	background:url(../images/background.jpg) no-repeat fixed;
+background-size: cover;
+}
+
+/******************************
+		HEADER
+*******************************/
+#header{
+	background-color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#user{
+	margin-top: 20px;
+}
+
+#user a{
+	color: #080808;
+	font-size: 12px;
+}
+
+#user .modal-footer .btn-dn{
+	background: #ffaf02;
+	border: 0px;
+}
+
+#user .modal-footer .btn-dn:hover{
+	color: #9d9d9d;
+}
+
+#gio-hang{
+	margin-top: 15px;
+}
+
+#gio-hang .text-gio-hang{
+	color: #ffaf02;
+	font-size: 12px;
+} 
+
+#gio-hang .glyphicon{
+	font-size: 30px;
+	color: #ffaf02;
+	margin-left: 5px;
+}
+
+/******************************
+		MENU
+*******************************/
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	width: 75%; 
+	z-index: 10;
+}
+
+#mainnav{
+	
+}
+
+#menu .col-sm-12{
+	padding: 0;
+}
+
+#menu .navbar{
+	border-radius: 0px;
+	border: 0px;
+	background-color: #ffaf02;
+	text-align: center;
+	margin-bottom: 0px;
+	-webkit-box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 8px -2px rgba(0,0,0,0.75);
+    z-index:999;
+}
+
+#menu .navbar-inverse .navbar-nav li a {
+	color: #fff;
+}
+
+#menu .navbar-inverse .navbar-nav a:hover{
+	color: #9d9d9d;
+	transition: all 0.3s ease-in-out;
+}
+
+#menu .dropdown-menu{
+	background-color: #080808;
+}
+
+#menu .navbar-brand{
+	color: #fff;
+}
+
+#menu .navbar-brand:hover{
+	color: #9d9d9d;
+	transition: all 0.3s ease-in-out;
+}
+
+#menu .glyphicon-home{
+	font-size: 20px;
+}
+
+#menu .form-control{
+	border-radius: 0px;
+	border: 0px;
+}
+
+#menu .btn{
+	padding: 10px 12px;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #080808;
+}
+
+#menu .glyphicon-search{
+	color: #fff;
+}
+
+#menu .btn:hover .glyphicon-search{
+	color: #9d9d9d;
+}
+
+/******************************
+		LEFT CONTAIN
+*******************************/
+
+#contain .col-sm-9{
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 20px;
+}
+
+/**** Slide Image ********/
+#slide-image h2{
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+#slide-image{
+	margin-bottom: 20px;
+}
+
+/**** San Pham Ban Chay ****/
+
+#sp-ban-chay .panel, 
+#left-module .panel{
+	border: 0px;
+	border-radius: 0px;
+}
+
+#sp-ban-chay .panel .panel-heading, 
+#left-module .panel .panel-heading{
+	border-radius: 0px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #080808;
+	color: #fff;
+}
+
+.sp{
+	text-align: center;
+}
+
+
+.sp .txt-title{
+	color: #080808;
+	margin-bottom: 0px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.sp .txt-price{
+	color: #ffaf02;
+	margin-bottom: 0px;
+}
+
+.sp .btn{
+	border-radius: 0px;
+}
+
+.sp .btn:hover{
+	background-color: #ffaf02;
+	border:1px solid #ffaf02;
+	transition: all 0.4s ease-in-out;
+}
+
+.sp .well{
+	padding:0px;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	border: 0px;
+}
+
+.third-effect .mask {
+	top:0;
+	position: absolute;
+	z-index: 2;
+   	opacity: 0;
+   	overflow:visible;
+   	box-sizing:border-box;
+   	transition: all 0.4s ease-in-out;
+   	width: 100%;
+   	height:0%;
+}
+
+.third-effect:hover .mask {
+   opacity: 0.2;
+   height: 100%;
+   background-color: #080808;
+}
+
+#sp-ban-chay .owl-nav div{
+	background-color: #080808;
+	color: #fff;
+	position: absolute;
+	top:35%;
+	width:30px;
+	height: 30px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 6px;
+}
+
+#sp-ban-chay .owl-nav .owl-next{
+	right:0;
+}
+
+/***** left Module ************/
+
+#left-module .panel-heading{
+	border: 0px;
+	width: 30%;
+}
+
+#left-module .panel{
+	background-color: transparent;;
+}
+
+#left-module .panel-body{
+	background-color: #fff;
+	border-top: 3px solid #080808;
+}
+
+#left-module .row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.sp .well, .news .well{
+	padding: 0px;
+	border: 0px;
+	border-radius: 0px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+.sp img, .news img, #right-module img, #footer img{
+	width: 100%;
+	height: 100%;
+}
+
+.read-more{
+	padding-top: 10px;
+}
+
+
+.read-more a{
+	color: #080808;
+}
+.read-more .glyphicon-play, .news .glyphicon-play{
+	font-size: 11px;
+} 
+
+/**** TIN TUC *****/
+.news{
+	font-size: 12px;
+}
+
+.tt .panel-body{
+	padding-bottom: 0px;
+}
+
+.news-title{
+	padding-top: 5px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+.news .well{
+	margin-bottom: 0px;
+
+}
+
+
+.news .list-group-item{
+	font-weight: bold;
+	border: 0px;
+}
+
+.news-info{
+	height: 100px;
+	overflow: hidden;
+}
+.list-group{
+	height: 230px;
+	overflow: hidden;
+}
+
+/******************************
+		RIGHT CONTAIN
+*******************************/
+
+
+#right {
+	padding-left: 20px;
+	padding-right: 0px;
+	margin-top: 20px;
+}
+
+#right-module .panel{
+	border-radius: 0px;
+	border: 0px;
+}
+
+#right-module .panel-heading{
+	border-radius: 0px;
+	background-color: #ffaf02;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#right-module .list-group{
+	height: auto;
+}
+
+#right-module .list-group{
+	margin-bottom: 5px;
+}
+#right-module .panel-body{
+	padding-bottom: 5px;
+}
+
+
+#right-module .well{
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	padding: 0px;
+	border: 0px;
+	margin-bottom: 10px;
+}
+
+#right-module .shadow{
+	top:60%;
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background-color: #000;
+	opacity: 0.2;
+	z-index: 2;
+   	transition: all 0.4s ease-in-out;
+}
+
+#right-module .sp:hover .shadow{
+	opacity: 0.5;
+}
+
+#right-module p{
+	top:75%;
+	position: absolute;
+	width: 100%;
+	color: #fff;
+	z-index: 3;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+
+}
+
+/******************************
+		FOOTER
+*******************************/
+
+#footer{
+	background-color: #393c42;
+	color: #8c8c8c;
+	font-size: 11px;
+	padding:10px 0px;
+}
+
+#footer li, a{
+	list-style: none;
+	color: #8c8c8c;
+	margin-left: 0px;
+}
+
+#footer .glyphicon-play{
+	font-size: 8px;
+}
+
+#footer .list-group-item {
+    padding: 3px;
+    background: transparent;
+    border: 0px;
+}
+
+#footer .footer-title{
+	color: #fff;
+	font-weight: bold;
+}
+
+#footer .col-sm-3{
+	height: 150px;
+	overflow: hidden;
+}
+
+#maps{
+	width: 200px;
+	height: 100px;
+	background-color: #fff;
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px){
+	#slide-image h2{
+		font-size: 12px;
+	}
+
+	.center{
+	width: 100%;
+	}
+
+	#left-module .panel-heading{
+	width: 100%;
+	}
+
+	.sp{
+		padding-bottom:10px; 	
+	}
+
+	.fixed {
+		width: 100%; 
+	}
+}
+
+/* Landscape phone to portaint tablet */
+@media (max-width: 768px){
+	.center{
+	width: 100%;
+	}
+
+	#left-module .panel-heading{
+	width: 100%;
+	}
+	
+	.sp{
+		padding-bottom:10px; 	
+	}
+
+	.fixed {
+		width: 100%; 
+	}
+}
+
+/* Up to small desktop */
+@media (max-width: 979px){
+	#dm-sp p{
+		font-size: 12px;
+	}	
+
+}
+
+
+
+
+
+
+
+
+/*********************************
+*		Page Sản Phẩm			*
+**********************************/
+
+#page-san-pham .well{
+
+	background-color: #fff;
+	border-radius: 0px;
+}
+
+#page-san-pham h5, h4{
+	color: #ffaf02;
+}
+
+#page-san-pham .row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.info-sp img{
+	width: 20%;
+	height: 20%;
+}
+
+.sp-hr{
+  border : 0;
+  height: 1px; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+/***** Chi Tiết Sản Phẩm *****/
+#chi-tiet-sp p{
+	text-align: justify;
+}
+
+#page-san-pham .gia-ban{
+	width: 100%;
+	padding:10px 0px;
+	background-color: #f5f5f5;
+	text-align: center;
+	font-size: 20px;
+	color: #080808;
+	margin-bottom: 10px;  
+}
+
+#chi-tiet-sp .btn{
+	margin-bottom: 10px;
+}
+
+#chi-tiet-sp .info-product{
+	padding:20px;
+}
+
+#chi-tiet-tin-tuc{
+	margin-bottom: 60px;
+}
+
+#fast-buy .info-sp{
+	text-align: center;
+}
+
+#fast-buy .info-sp p{
+	text-align: center;
+	font-size: 15px;
+	color:#080808;
+	font-weight: bold; 
+}
+
+#fast-buy .info-sp img{
+	width: 20%;
+	height: 20%;
+}
+
+#sp-khac{
+	text-align: center;
+}
+
+#put-shopping-cart img{
+	width: 20%;
+	height: 20%;
+}
+
+#put-shopping-cart thead{
+	font-weight: bold;
+}
+
+.sum{
+	text-align: right;
+	font-size: 20px;
+}
+
+/****** Chi tiết tin tưc *******/
+.img-news{
+	width: 70%;
+	margin-bottom: 20px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.img-news img{
+	height: 70%;
+}
+
+#chi-tiet-tin-tuc p{
+	text-indent: 50px;
+}
+
+/*********page-gio-hang **********/
+#page-gio-hang img{
+	width: 60px;
+	height: 60px;
+}
+
+#page-gio-hang thead{
+	font-weight: bold;
+}
+
+.kc-sp{
+	margin-top: 10px;
+}
+
+/********FIX**********/
+.read-more-fix{
+	padding-bottom: 10px;
+}
