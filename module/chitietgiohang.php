@@ -78,7 +78,7 @@
 									</tbody>
 								</table>
 								</div>
-								<div class="modal-footer">
+								<div id="shop-cart" class="modal-footer">
 									<a href="?page=trang-chu"><button type="button" class="btn btn-default pull-left" data-dismiss="modal">Tiếp tục mua hàng</button></a>
 		                            <a href="?page=ql-gio-hang&act=del"><button type="button" class="btn btn-default pull-left" data-dismiss="modal">Xóa toàn bộ giỏ hàng</button></a>
 		                            <a href="?page=thanh-toan"><button type="button" class="btn btn-warning btn-dn pull-right">Đặt hàng</button></a>

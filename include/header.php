@@ -3,19 +3,19 @@
 				<div class="col-sm-12">
 					<div class="row">
 						<div class="col-sm-5">
-							<div>
-                            <?php
-                            if($main->logo()) {
-                                $info = mysql_fetch_array($main->logo());
-                                ?>
-                                <a href="<?php echo $info[2]; ?>">
-                                <img class="img-reponsive" height="63px" src="<?php echo $info[3];?>">
-                                </a>
-                            <?php
-                            }
-                            ?>
-                            </div>
-                        </div><!-- End col-sm-5 logo -->
+							<div class="logo">
+								<?php
+								if($main->logo()) {
+										$info = mysql_fetch_array($main->logo());
+										?>
+										<a href="<?php echo $info[2]; ?>">
+										<img class="img-reponsive" src="<?php echo $info[3];?>">
+										</a>
+								<?php
+								}
+								?>
+							</div>
+            </div><!-- End col-sm-5 logo -->
 
 
 						<div class="col-sm-5" id="user" >
