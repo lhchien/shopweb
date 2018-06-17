@@ -5,7 +5,11 @@
 
 body {
 	background:url(../images/background.jpg) no-repeat fixed;
-background-size: cover;
+	background-size: cover;
+}
+
+.txt-title{
+	font-weight: bold;
 }
 
 /******************************
@@ -147,6 +151,10 @@ background-size: cover;
 	margin-bottom: 20px;
 }
 
+#slide-image img{
+	width: 100%;
+}
+
 /**** San Pham Ban Chay ****/
 
 #sp-ban-chay .panel, 
@@ -197,6 +205,7 @@ background-size: cover;
 	z-index: 1;
 	width: 100%;
 	border: 0px;
+	height: 200px;
 }
 
 .third-effect .mask {
@@ -260,6 +269,7 @@ background-size: cover;
 	border-radius: 0px;
 	background-color: #fff;
 	margin-bottom: 5px;
+	height: 200px;
 }
 .sp img, .news img, #right-module img, #footer img{
 	width: 100%;
@@ -281,9 +291,21 @@ background-size: cover;
 /**** TIN TUC *****/
 .news{
 	font-size: 12px;
+	height: 300px;
+	margin-bottom: 10px;
 }
 
-.tt .panel-body{
+.news .news-title{
+	font-weight: bold;
+	padding: 5px;
+}
+.news .news-info{
+	height: 70px;
+	overflow: hidden;
+	text-overflow: ellipsis;	 
+}
+
+/* .tt .panel-body{
 	padding-bottom: 0px;
 }
 
@@ -295,6 +317,7 @@ background-size: cover;
 
 .news .well{
 	margin-bottom: 0px;
+	height: 200px;
 
 }
 
@@ -307,7 +330,7 @@ background-size: cover;
 .news-info{
 	height: 100px;
 	overflow: hidden;
-}
+} */
 .list-group{
 	height: 230px;
 	overflow: hidden;
@@ -323,6 +346,8 @@ background-size: cover;
 	padding-right: 0px;
 	margin-top: 20px;
 }
+#right-module{
+	height: 100%;}
 
 #right-module .panel{
 	border-radius: 0px;
@@ -429,30 +454,73 @@ background-size: cover;
 }
 
 /* Portrait & landscape phone */
-@media (max-width: 480px){
+@media only screen 
+	and (max-device-width: 480px){
 	#slide-image h2{
 		font-size: 12px;
 	}
 
 	.center{
-	width: 100%;
+		width: 100%;
 	}
 
 	#left-module .panel-heading{
-	width: 100%;
+		width: 100%;
 	}
 
 	.sp{
-		padding-bottom:10px; 	
+		padding-bottom: 10px; 
+		background-color: #f5f5f0;
+		margin-bottom: 10px;	
+	}
+
+
+	.sp .btn{
+		width: 50%;
+		margin: 0 auto;
+	}
+	.sp .txt-title{
+		font-size: 17px;
+		font-weight: bold;
+	}
+	.sp .txt-price{
+		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.fixed {
 		width: 100%; 
 	}
+	#right-module .well{
+		height: 150px;
+	}
+
+	#right-module .well p{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.navbar-header{
+		padding: 0 15px;
+	}
+
+	.nav-search-form{
+		padding-left: 100px;
+	}
+
+	#maps{
+		width: 100%;
+	}
+
+	#header{
+		padding-right: 15px;
+	}
 }
 
-/* Landscape phone to portaint tablet */
-@media (max-width: 768px){
+/* Landscape phone to portaint ipad tablet */
+@media only screen
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px){
 	.center{
 	width: 100%;
 	}
@@ -468,26 +536,66 @@ background-size: cover;
 	.fixed {
 		width: 100%; 
 	}
+
+	#header{
+		padding-right: 20px;
+	}
+
+	#slide-image{
+		margin-left: 20px;
+	}
+
+	#sp-ban-chay{
+		margin-left: 20px;
+	}
+
+	#left-module{
+		margin-left: 20px;
+	}
+
+	#right-module{
+		margin-right: 20px;
+	}
+
+	#right-module .panel-heading{
+		font-size: 10px;
+	}
+
+	#right-module .well{
+		height: 70px;
+	}
+
+	#menu{
+		padding-left: 10px;
+	}
+
+	.nav-search-form{
+		padding-right: 100px; 
+	}
+
+	#left-module .well {
+		height: 150px;
+	}
 }
 
 /* Up to small desktop */
-@media (max-width: 979px){
-	#dm-sp p{
-		font-size: 12px;
-	}	
-
+@media screen
+	and (min-device-width: 1200px) 
+ 	and (max-device-width: 1600px){
+		#dm-sp p{
+			font-size: 12px;
+		}	
+		#right-module .well{
+			height: 100px;
+		}
 }
-
-
-
-
-
-
-
 
 /*********************************
 *		Page Sản Phẩm			*
 **********************************/
+.well img{
+	object-fit: cover;
+}
 
 #page-san-pham .well{
 

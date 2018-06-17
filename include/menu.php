@@ -35,7 +35,7 @@
 		                        <li <?php if($page== "lien-he") echo 'class="active"'?>><a href="?page=lien-he">LIÊN HỆ</a></li>
 		                        <li <?php if($page== "huong-dan") echo 'class="active"'?>><a href="?page=huong-dan">HƯỚNG DẪN</a></li>                
 		               		</ul>
-						      <form class="navbar-form navbar-right pull-right" role="search" action="" method="GET">
+						      <form class="navbar-form navbar-right nav-search-form" role="search" action="" method="GET">
 						        <div class="form-group">	
 						          <table>
 		                        	<tr><input type="hidden" value="tim-kiem" name="page">

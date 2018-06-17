@@ -176,7 +176,7 @@
                     	<div class="panel panel-warning">
                         	<div class="panel-heading">đối tác</div>
                             <div class="panel-body">
-                            	<div class="well">
+                            	<div>
                                     <?php
                                     if($main->doitac())
                                     {

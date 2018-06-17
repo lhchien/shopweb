@@ -29,6 +29,7 @@
 											<td>Số lượng</td>
 											<td>Giá</td>
 											<td>Thành tiền</td>
+											<td></td>
 										</tr>
 									</thead>
 									<tbody>
@@ -49,8 +50,7 @@
 										<tr>
 											<td><img src="<?php echo $row[8]?>" class="img-resposive"></td>
 											<td>
-												<span class="text-uppercase"><b><?php echo $row[1];?></b></span></br>
-												<a href="?page=ql-gio-hang&act=edit&sp_ma=<?php echo $row[0]?>&sl=0">Xóa</a>
+												<span class="text-uppercase"><b><?php echo $row[1];?></b></span>
 											</td>
 											<td style="width:11%">
 												<select style="width:100px;" class="form-control" onchange="javascriot:window.location='?page=ql-gio-hang&act=edit&sp_ma=<?php echo $row[0]?>&sl='+this.options[this.selectedIndex].value">
@@ -68,6 +68,7 @@
 											<td><?php echo number_format($row[2]);?></td>
 											
 											<td><b><?php if($value ==0) echo "Liên hệ"; else echo number_format($row[2] * $value)."đ"; ?></b></td>
+											<td><a href="?page=ql-gio-hang&act=edit&sp_ma=<?php echo $row[0]?>&sl=0"><span class="glyphicon glyphicon-remove text-danger"></span></a></td>
 										</tr>
 									<?php } ?>
 											
